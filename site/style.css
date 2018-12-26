@@ -11,6 +11,16 @@ ul{
     list-style-type: none;
 }
 
+h5{
+    font-weight: 500px;
+    font-size: 20px;
+    text-align: center;
+}
+ol{
+    list-style-type: none;
+}
+
+
 
 /*nav*/
 nav{
@@ -22,15 +32,15 @@ nav{
     position: fixed;
     z-index: 500;
 }
-.logo-box{
+.logo-box{ /*dostlarım market yazan yer divi*/
     float: left;
 }
-.logo-name{
+.logo-name{ /*dostlarım market yazan yer*/
     font-weight: 600;
     font-size: 45px;
     padding: 0 40px;
 }
-.ul-links .nav-link{
+.ul-links .nav-link{  /*hemn ul links hem nav link özellikleri*/
     display: block;
     float: right;
      letter-spacing: .1rem;
@@ -41,4 +51,25 @@ nav{
 }
 .nav-link:hover{
     background: gray;
+}
+
+/*header*/
+#urunler{ /*katogeriler ile yan yana gelmezse display block yap*/
+    margin-top: 200px;
+    margin-right: 20px;
+    width: 250px;
+    height: 500px;
+    border: 8px solid black;
+    border-radius: 10px;
+    float: right;
+    background-color: wheat;
+}
+.cizgih5{  /*ürünlerin altındaki çizgi kutuyu ikiye bölen*/
+    
+        border: 3px solid black;
+
+}
+#urunler-items li a{  /*ürünler listesi özellikleri*/
+    font-size: 20px;
+    color: green ;
 }
