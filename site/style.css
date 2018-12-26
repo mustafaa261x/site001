@@ -1,4 +1,18 @@
 body{
-
+    font-family: 'K2D', sans-serif;
     background-image: url("img/bg.png");
+    margin: 0px auto;
+}
+
+/*nav*/
+nav{
+    width: 100%;
+    padding-top: 2.9rem;
+    padding-bottom: 2.9rem;
+    background-color: rgba(32, 5, 39, 0.479);
+    position: fixed;
+    z-index: 500;
+}
+.logo-box{
+    float: left;
 }
