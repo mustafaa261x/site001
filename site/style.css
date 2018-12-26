@@ -1,39 +1,44 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=K2D" rel="stylesheet">
-    <title>Dostlarım Market</title>
-</head>
-<body>
-    <nav>
-         <div class="logo-box">
-             <a href="#" class="logo-name">
-        Dostlarım market
-    </a>
-         </div>
-         <div class="ul-links">
-           <ul>
-             <li class="nav-item">
-                    <a href="" class="nav-link leftbos">Ürünlerimiz</a>
-             </li>
-             <li class="nav-item">
-                 <a href="" class="nav-link">Şubelerimiz</a>
-             </li>
-             <li class="nav-item">
-                    <a href="" class="nav-link">İletişim</a>
-             </li>
-
-           </ul>
-
-         </div>
+body{
+    font-family: 'K2D', sans-serif;
+    background-image: url("img/bg.png");
+    margin: 0px auto;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+ul{
+    list-style-type: none;
+}
 
 
-    </nav>
-
-
-</body>
-</html>
+/*nav*/
+nav{
+    width: 100%;
+    padding-top: 2.9rem;
+    padding-bottom: 2.9rem;
+    background-color: #000;
+    color: white;
+    position: fixed;
+    z-index: 500;
+}
+.logo-box{
+    float: left;
+}
+.logo-name{
+    font-weight: 600;
+    font-size: 45px;
+    padding: 0 40px;
+}
+.ul-links .nav-link{
+    display: block;
+    float: right;
+     letter-spacing: .1rem;
+     padding: 10px;
+     font-weight: 900;
+     margin-right: 20px;
+     transition: all 1s;
+}
+.nav-link:hover{
+    background: gray;
+}
